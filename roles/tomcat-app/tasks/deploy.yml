@@ -1,3 +1,4 @@
+- include_tasks: disable-in-haproxy.yml
 - name: Stop tomcat
   service:
           name: tomcat8
